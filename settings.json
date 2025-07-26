@@ -1,0 +1,151 @@
+{
+  "poshCommit.variables": {
+    "emoji": [
+      {
+        "label": ":construction:",
+        "detail": "WIP"
+      },
+      {
+        "label": ":books:",
+        "detail": "Documentation"
+      },
+      {
+        "label": ":recycle:",
+        "detail": "Refactor (1)"
+      },
+      {
+        "label": ":hammer:",
+        "detail": "Refactor(2)"
+      },
+      {
+        "label": ":fire:",
+        "detail": "Refactor(3)"
+      },
+      {
+        "label": ":fire:",
+        "detail": "Remove code/files"
+      },
+      {
+        "label": ":sparkles:",
+        "detail": "New Feature"
+      },
+      {
+        "label": ":bug:",
+        "detail": "Bug Fix"
+      },
+      {
+        "label": ":gem:",
+        "detail": "Styling"
+      },
+      {
+        "label": ":green_heart:",
+        "detail": "Fix CI/Build"
+      },
+      {
+        "label": ":spider_web:",
+        "detail": "Updates from static site"
+      },
+      {
+        "label": ":coffin:",
+        "detail": "Deprecation"
+      },
+      {
+        "label": ":rocket:",
+        "detail": "Performance"
+      }
+    ],
+    "feat": [
+      {
+        "label": "feat",
+        "detail": "Feature"
+      },
+      {
+        "label": "bugfix",
+        "detail": "Bug Fix"
+      },
+      {
+        "label": "refactor",
+        "detail": "Refactor"
+      },
+      {
+        "label": "chore",
+        "detail": "Chore"
+      },
+      {
+        "label": "docs",
+        "detail": "Documentation"
+      },
+      {
+        "label": "style",
+        "detail": "Styling"
+      },
+      {
+        "label": "perf",
+        "detail": "Performance"
+      },
+      {
+        "label": "test",
+        "detail": "Testing"
+      },
+      {
+        "label": "build",
+        "detail": "Build"
+      },
+      {
+        "label": "ci",
+        "detail": "CI"
+      },
+      {
+        "label": ""
+      }
+    ],
+    "scope": [
+      {
+        "label": "sites",
+        "detail": "Site Map"
+      },
+      {
+        "label": "deps",
+        "detail": "Dependencies"
+      },
+      {
+        "label": "pages",
+        "detail": "Page Components"
+      },
+      {
+        "label": "comp",
+        "detail": "Components"
+      },
+      {
+        "label": "home",
+        "detail": "Home Page"
+      },
+      {
+        "label": "styles",
+        "detail": "Styling"
+      },
+      {
+        "label": "img",
+        "detail": "Images"
+      },
+      {
+        "label": "docs",
+        "detail": "Documentation"
+      },
+      {
+        "label": "app",
+        "detail": "App-Wide"
+      },
+      {
+        "label": "data",
+        "detail": "Data-specific"
+      },
+      {
+        "label": "deploy",
+        "detail": "Deployments/CI/CD"
+      }
+    ]
+  },
+  "poshCommit.template": [
+    "{emoji} {feat}({scope}): {message} "
+  ],
